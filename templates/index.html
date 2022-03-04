@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fedor Nesterovich</title>
+  <link rel="icon" href="{{url_for('static', filename='favicon.ico')}}">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!--CSS-->
+  <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+  <!--  Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/281b597685.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand me-auto" href="#">Fedor Nesterovich</a>
+    <a type="button" class="btn btn-outline-light ms-auto" id="nav-btn" href="#footer">Contact Me</a>
+  </div>
+</nav>
+
+<!--Title-->
+
+<section id="title">
+  <div class="container-fluid title">
+    <h1 class="title-heading">Hi, I'm Fedor</h1>
+    <h2 class="title-subheading">A beginner programmer with Python with financial background</h2>
+    <h4 class="title-text">And this is my personal site.</h4>
+  </div>
+</section>
+
+<!--Skills-->
+
+<section id="skills">
+  <div class="container-fluid skills">
+    <div class="card skills-card mx-auto">
+      <h2 class="skills-title">My Skills</h2>
+      <h4 class="card-title">Programming</h4>
+      <div class="row top-card-body">
+        <div class="col-3">
+          <img class="programming-logo" src="static/programming-pic.png" alt="programming_logo">
+        </div>
+        <div class="col-9">
+          <p class="card-text-top">Finished 100 Days of Code: The Complete Python Pro Bootcamp.<br>Have knowledge of Flask,
+            Pandas, Selenium, Git, Jenkins, SQLAlchemy, Turtle, Tkinter, NumPy, Matplotlib, Plotly, etc.<br>As for Web Development, I
+            have knowledge of HTML, CSS, Bootstrap.
+          </p>
+        </div>
+      </div>
+      <h4 class="card-title">Finance</h4>
+      <div class="row bottom-card-body">
+        <div class="col-9">
+          <p class="card-text-bottom">I have expertise in Net Revenue Management (PPA, Trade Investments, Mix) as well
+            as Sales Finance (Customer Based P&Ls) and Reporting (Management Reporting). Also have experience in
+            building forecast financial models for projects.
+          </p>
+        </div>
+        <div class="col-3">
+          <img class="finance-logo" src="static/finance-pic.png" alt="finance_logo">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+<div class="container-fluid experience">
+  <div class="card experience-card mx-auto">
+    <h2 class="experience-title">Education and Work</h2>
+    <h4 class="card-title">Work Experience</h4>
+    <div class="row top-card-body">
+      <div class="col-3">
+        <p class="experience-text">
+          2018 - 2022
+        </p>
+      </div>
+      <div class="col-6">
+        <p class="experience-text">
+          Revenue Analyst
+        </p>
+      </div>
+      <div class="col-3">
+        <p class="experience-text">
+          Pepsico<br>Minsk, Belarus
+        </p>
+      </div>
+    </div>
+    <h4 class="card-title">Education</h4>
+    <div class="row bottom-card-body">
+      <div class="col-3">
+        <p class="experience-text">
+          2017 - 2018
+        </p>
+      </div>
+      <div class="col-6">
+        <p class="experience-text">
+          Master of Science in Corporate Financial Management
+        </p>
+      </div>
+      <div class="col-3">
+        <p class="experience-text">
+          SKEMA Business School<br>Paris, France
+        </p>
+      </div>
+    </div>
+    <div class="row bottom-card-body">
+      <div class="col-3">
+        <p class="experience-text">
+          2016 - 2019
+        </p>
+      </div>
+      <div class="col-6">
+        <p class="experience-text">
+          Master's Degree in Finance and Credit
+        </p>
+      </div>
+      <div class="col-3">
+        <p class="experience-text">
+          Belarusian State University<br>Minsk, Belarus
+        </p>
+      </div>
+    </div>
+    <div class="row bottom-card-body">
+      <div class="col-3">
+        <p class="experience-text">
+          2012 - 2016
+        </p>
+      </div>
+      <div class="col-6">
+        <p class="experience-text">
+          Bachelor's Degree in Finance and Credit
+        </p>
+      </div>
+      <div class="col-3">
+        <p class="experience-text">
+          Belarusian State University<br>Minsk, Belarus
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section id="footer">
+  <div class="container-fluid footer">
+    <p><a href="mailto:teodorinni@gmail.com"><i class="fa-regular fa-envelope fa-xl footer-icon"></i></a>
+      <a href="https://www.linkedin.com/in/teodorinni/"><i class="fa-brands fa-linkedin-in fa-xl footer-icon"></i></a>
+      <a href="https://www.facebook.com/teodorinni"><i class="fa-brands fa-facebook-f fa-xl footer-icon"></i></a>
+      <a href="https://twitter.com/FNesterovich"><i class="fa-brands fa-twitter fa-xl footer-icon"></i></a></p>
+    <p class="footer-text">© 2022 Fedor Nesterovich</p>
+  </div>
+</section>
+</body>
+</html>

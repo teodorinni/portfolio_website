@@ -1,0 +1,149 @@
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+/*Navbar*/
+
+.navbar {
+    color: white;
+    padding: 1.5% 5%;
+    background-color: #00909E;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-brand:hover {
+    color: #DAE1E7;
+}
+
+
+#nav-btn {
+    color: white;
+    font-weight: 500;
+}
+
+#nav-btn:hover {
+    color: white;
+    background-color: #00839e;
+}
+
+/*Title*/
+
+.title {
+    background-color: #00909E;
+    padding: 9% 9% 9%;
+    text-align: center;
+    color: white;
+}
+
+.title-heading {
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+
+.title-subheading {
+    padding: 0 0 2%;
+}
+
+.title-text {
+    font-weight: 200;
+}
+
+.title-image {
+    width: 100%;
+}
+
+/*Skills*/
+
+.skills {
+    background-image: url("title-image.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 9% 0%;
+}
+
+.skills-title {
+    text-align: center;
+    padding: 0% 0% 7%;
+}
+
+.skills-card {
+    width: 50%;
+    padding: 3%;
+    background-color: #fafafa;
+}
+
+.top-card-body {
+    padding-bottom: 7%;
+    padding-top: 2.5%;
+}
+
+.bottom-card-body {
+    padding-top: 2.5%;
+}
+
+.programming-logo{
+    width: 100%;
+    float: left;
+}
+
+.finance-logo{
+    width: 100%;
+    float: right;
+    margin-right: 0px;
+}
+
+.card-text-top {
+    text-align: left;
+    padding: 0% 0% 0% 10%;
+    font-size: 0.9rem;
+}
+
+.card-text-bottom {
+    text-align: left;
+    padding: 0% 5% 0% 0%;
+    font-size: 0.9rem;
+}
+
+/*Experience*/
+.experience {
+    text-align: center;
+    padding: 9% 0%;
+    background-color: #00909E;
+}
+
+.experience-card {
+    width: 50%;
+    padding: 3%;
+    background-color: #fafafa;
+}
+
+.experience-title {
+    text-align: center;
+    padding: 0% 0% 7%;
+}
+
+.experience-text {
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+/*Footer*/
+
+.footer {
+    text-align: center;
+    padding: 4.5% 0%;
+    background-color: #fafafa;
+}
+
+.footer-text {
+    font-size: 0.8rem;
+}
+
+.footer-icon {
+    margin: 0% 1%;
+    color: #233240;
+}
